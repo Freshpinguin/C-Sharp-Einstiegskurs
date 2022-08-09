@@ -12,7 +12,7 @@ Führe ein Programm aus, welches den Text "Hello World!" ausgibt.
 
 ### Ausgabe mit mehreren Zeilen
 
-Gebe ein Ausgabetext aus, der aus mehrere Zeilen besteht. Schreibe ein Smiley pro Zeile: (^_^) [o_o] (°.°) (+_+) {$.$}
+Gebe ein Ausgabetext aus, der aus mehrere Zeilen besteht. Schreibe ein Smiley pro Zeile: (^\_^) [o_o] (°.°) (+\_+) {$.$}
 
 Verwende dafür mehrere Console.WriteLine().
 
