@@ -13,4 +13,22 @@
 
 
 
-![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/NewProjectMacOS.png)
+![alt text]()
+
+
+
+
+![alt text]()
+
+
+
+![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/PorjectErstellung2MacOS.png)
+
+
+
+![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/ErstesProjectMacOS.png)
+
+
+
+![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/TerminalAusgabeMacOS.png)
+
