@@ -13,12 +13,12 @@
 
 
 
-![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/NewProjectMacOS.png)
+![alt text]()
 
 
 
 
-![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/ProjectErstellung1MacOS.png)
+![alt text]()
 
 
 
