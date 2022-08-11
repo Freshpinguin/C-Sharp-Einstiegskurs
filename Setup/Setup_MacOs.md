@@ -13,16 +13,16 @@ Wenn du die Installation abgeschlossen hast, starte Visual Studio. Um eine neues
 
 ![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/ProjectErstellungmacOS.png)
 
-
+Bei der Auswahl des Templates, wähle links unter dem Reiter "Web and Console" den Punkt "App". Wähle rechts unter "General" "Console Application" und im DropDown Menu "C#" aus. 
 
 ![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/ConsoleApplicationMACOS.png)
 
 
-
+Wähle unter Target framework ".Net 6.0" aus.
 
 ![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/Net60Macos.png)
 
-
+Ändere den Namen des Projektes zu "MeinErstesCSProjekt".
 
 ![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/PorjectErstellung2MacOS.png)
 
