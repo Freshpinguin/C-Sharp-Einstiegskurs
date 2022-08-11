@@ -13,12 +13,12 @@
 
 
 
-![alt text]()
+![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/ConsoleApplicationMACOS.png)
 
 
 
 
-![alt text]()
+![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/Net60Macos.png)
 
 
 
