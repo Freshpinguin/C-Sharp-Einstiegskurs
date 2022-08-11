@@ -56,3 +56,18 @@ Gebe in der Konsole ein Weihnachtsbaum aus.
 
 Finde heraus wie man eine neue Zeile in einem String erzeugt, ohne ein erneutes Console.WriteLine() auszuführen. Typ: Escape Zeichen
 
+
+
+```cs
+// Instant ParticleSystem prefab with UIParticle on runtime.
+var go = GameObject.Instantiate(prefab);
+var uiParticle = go.AddComponent<UIParticle>();
+
+// Control by ParticleSystem.
+particleSystem.Play();
+particleSystem.Emit(10);
+
+// Control by UIParticle.
+uiParticle.Play();
+uiParticle.Stop();
+```
