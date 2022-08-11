@@ -26,7 +26,12 @@ Wähle unter Target framework ".Net 6.0" aus.
 
 ![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/PorjectErstellung2MacOS.png)
 
+Du hast deine Programmierumgebung geöffnet. Links siehst du die Ordnerstruktur deines Projekts. Bis jetzt gibt es nur ein paar Ordner und eine Datei, die "Program.cs" heißt. Diese Datei ist auf der rechten Seite gerade geöffnet. Bis jetzt steht im Programm folgendes:
 
+```cs
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+```
 
 ![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/ErstesProjectMacOS.png)
 
