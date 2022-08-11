@@ -8,6 +8,8 @@
 
 ## Projekterstellung
 
+Wenn du die Installation abgeschlossen hast, starte Visual Studio. Um eine neues Projekt zu erstellen, drücke auf das lila Plussymbol auf der rechten Seite.
+
 
 ![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/ProjectErstellungmacOS.png)
 
