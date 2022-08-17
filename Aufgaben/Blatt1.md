@@ -110,7 +110,7 @@ Console.WriteLine(Math.Pow(3,4));
 ```
 Gibt den Wert 3 hoch 4 in der Konsole aus.
 
-```math
+$$
 SE = \frac{\sigma}{\sqrt{n}}
-```
+$$
 
