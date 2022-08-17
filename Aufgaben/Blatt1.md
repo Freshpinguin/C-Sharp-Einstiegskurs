@@ -108,9 +108,8 @@ Finde heraus wie man eine neue Zeile in einem String erzeugt, ohne ein erneutes 
 ```cs
 Console.WriteLine(Math.Pow(3,4));
 ```
-Gibt den Wert 3 hoch 4 in der Konsole aus.
+Gibt den Wert $3^4$ in der Konsole aus. Finde heraus wie man die Fakultätsfunktion in C# benutzen kann und berechne $8!$.
+Finde eine Funktion aus Math, mit der man den Betrag eines Integer Wertes berechnen kann. Beispiel $|-2|=2=|2|$.
 
-$$
-SE = \frac{\sigma}{\sqrt{n}}
-$$
+
 
