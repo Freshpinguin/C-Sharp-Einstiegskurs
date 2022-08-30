@@ -2,6 +2,11 @@
 
 ## Console
 
+
+```cs
+Console.WriteLine("Dies ist mein erstes C# Project!");
+```
+
 ### Hello World
 
 Führe ein Programm aus, welches den Text "Hello World!" ausgibt.
@@ -12,11 +17,17 @@ Führe ein Programm aus, welches den Text "Hello World!" ausgibt.
 
 ### Ausgabe mit mehreren Zeilen
 
-Gebe ein Ausgabetext aus, der aus mehrere Zeilen besteht. Schreibe ein Smiley pro Zeile: (^\_^) [o_o] (°.°) (+\_+) {$.$}
+Gebe ein Ausgabetext aus, der aus mehrere Zeilen besteht. Schreibe ein Smiley pro Zeile: (^\_^) [o_O] (°.°) (+\_+) {$.$}
 
 Verwende dafür mehrere Console.WriteLine().
 
 ## String Variable 
+
+```cs
+string var = "Meine erste Variable!";
+
+Console.WriteLine(var);
+```
 
 Deklariere eine String Variable mit dem Text: "Dies ist eine String Variable!".
 
@@ -24,7 +35,7 @@ Geben den Inhalt dieser Varible im Terminal aus.
 
 ### Den Wert der Variable ändern
 
-Deklariere eine String Variabale mit dem Text: "Zuerst ist dies der Text."
+Deklariere eine String Variable mit dem Text: "Zuerst ist dies der Text."
 
 Gebe den Inhalt dieser Variable im Terminal aus.
 
@@ -50,6 +61,16 @@ Deklariere zwei String Variablen mit dem Text "Dies ist der erste Text" und "die
 Deklariere eine String Variable und weiße ihr die Konkatination der beiden Variablen als Wert zu.
 
 Schreibe den Wert der Variablen ins Terminal.
+
+## Konsolen Eingabe
+
+```cs
+Console.WriteLine("Gebe eine Eingabe ein und bestätige mit Enter!");
+
+string Eingabe = Console.ReadLine();
+
+Console.WriteLine(Eingabe);
+```
 
 ## Integer Variablen
 
@@ -101,7 +122,7 @@ Gebe in der Konsole ein Weihnachtsbaum aus.
 
 ### Escape Zeichen
 
-Finde heraus wie man eine neue Zeile in einem String erzeugt, ohne ein erneutes Console.WriteLine() auszuführen. Typ: Escape Zeichen
+Finde heraus wie man eine neue Zeile in einem String erzeugt, ohne ein erneutes Console.WriteLine() auszuführen. Tipp: Escape Zeichen
 
 ### Rechenoperationen
 
