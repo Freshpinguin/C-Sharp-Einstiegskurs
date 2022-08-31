@@ -72,6 +72,21 @@ string Eingabe = Console.ReadLine();
 Console.WriteLine(Eingabe);
 ```
 
+## Konsole Ausgabe
+
+### Einlesen des Namens
+
+Das Program soll folgendes tun. Das Program soll den Nutzer nach seinen Namen fragen und warten bis der Nutzer seinen Namen eingeben hat.
+Nach der Eingabe soll das Program den Nutzer mit seinen Namen begrüßen.
+
+### Umwandlung von string zu integer
+
+Deklariere eine string variable. Diese string variable enthält als Inhalt eine Nummer wie 42. Wandle den Inhalt der Variable in einen Integer um und speichere diesen Integerwert in eine neue Integer variable.
+
+### Eingabe des Altes.
+
+Das Program soll nun folgendes tun. Der Nutzer wird nach seinem Alter gefragt. Nach dem der Nutzer sein Alter eingeben hat, soll das Program dem Nutzer sein Alter plus 10 ausgeben.
+
 ## Integer Variablen
 
 ### Rechenoperationen
