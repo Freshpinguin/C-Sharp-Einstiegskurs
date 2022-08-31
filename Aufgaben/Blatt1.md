@@ -125,6 +125,60 @@ Deklariere vier Integer Variablen num2, num3, num5, num7 mit den Werten 2,3,5 un
 
 Verbinde die Variablen mit genau drei Rechenoperationen, so dass der Ausdruck num2 _ num3 _ num5 _ num7 den Wert 0 annimmt und gebe diesen im Terminal aus.
 
+## Bedingte Ausdrücke und Boolean Variablen
+
+### Beendigte Ausgabe
+
+Definiere eine boolean variable mit Wert false.
+Schreib ein If statement, dass prüft ob die boolean variable wahr ist. Falls das If statement wahr ist, dann soll die Ausgabe "Aussage ist wahr" auf der Konsole lauten.
+
+### Ausgabe einer boolean variable
+
+Tippe oder kopiere folgenden Code
+
+```Csharp 
+int number = 5;
+bool statement = number == 10;
+Console.WriteLine(statement);
+```
+
+Andere diesen Code so ab, dass true ausgeben wird.
+
+### Beispiel für eine If und else.
+
+```Csharp
+bool isRaining = false;
+
+if (isRaining == true)
+{
+    Console.WriteLine("Nimm einen Regenschirm mit.");
+}
+else 
+{
+    Console.WriteLine("Einen schönen sonnigen Tag.");
+}
+```
+
+### Beispiel mit string variablen, if und else.
+
+```Csharp
+string someValue = "a";
+
+if (someValue == "b")
+{
+    Console.WriteLine("Correct");
+}
+else 
+{
+    Console.WriteLine("Not correct");
+}
+```
+
+### Geheimer Zugang
+
+Speicher ein selbst ausgedachtes Password in eine string variable.
+Das Program fragt nach einem Password beim Nutzer.
+Wenn das eingeben Passwort gleich dem gespeicherten Passwort in der string Variable ist, dann soll dem Nutzer folgendes ausgeben werden "Access granted". Ansonsten soll "Access Denied" ausgeben werden.
 
 ## Zusatzaufgaben
 
