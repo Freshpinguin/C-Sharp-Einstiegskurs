@@ -67,7 +67,7 @@ Schreibe den Wert der Variablen ins Terminal.
 ```cs
 Console.WriteLine("Gebe eine Eingabe ein und bestätige mit Enter!");
 
-string Eingabe = Console.ReadLine();
+string input = Console.ReadLine();
 
 Console.WriteLine(Eingabe);
 ```
