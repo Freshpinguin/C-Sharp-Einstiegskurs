@@ -79,13 +79,6 @@ Console.WriteLine(Eingabe);
 Das Program soll folgendes tun. Das Program soll den Nutzer nach seinen Namen fragen und warten bis der Nutzer seinen Namen eingeben hat.
 Nach der Eingabe soll das Program den Nutzer mit seinen Namen begrüßen.
 
-### Umwandlung von string zu integer
-
-Deklariere eine string variable. Diese string variable enthält als Inhalt eine Nummer wie 42. Wandle den Inhalt der Variable in einen Integer um und speichere diesen Integerwert in eine neue Integer variable.
-
-### Eingabe des Altes.
-
-Das Program soll nun folgendes tun. Der Nutzer wird nach seinem Alter gefragt. Nach dem der Nutzer sein Alter eingeben hat, soll das Program dem Nutzer sein Alter plus 10 ausgeben.
 
 ## Integer Variablen
 
@@ -125,7 +118,83 @@ Deklariere vier Integer Variablen num2, num3, num5, num7 mit den Werten 2,3,5 un
 
 Verbinde die Variablen mit genau drei Rechenoperationen, so dass der Ausdruck num2 _ num3 _ num5 _ num7 den Wert 0 annimmt und gebe diesen im Terminal aus.
 
+## Konvertieren von Integer zu String 
+
+### Beispiel
+
+```Csharp 
+int zahl = 13;
+
+string dreizehn = zahl.ToString();
+
+string sieben = "7";
+
+string hundertsiebenundreissig = dreizehn + sieben;
+
+int ergebniss = Convert.ToInt32(hundertsiebenundreissig);
+
+Console.WriteLine(ergebniss);
+
+```
+
+### Konvertieren
+
+Deklariere eine String Variable mit dem Wert "239". Konvertiere den Wert der Variable zu einem Integer und speichere ihn in einer Variable.
+Multipliziere das Ergebnis mit 3, ziehe dann 3 ab und teile das Ergebniss durch 17. Konvertiere diese Zahl dann wieder in einen String und gebe das Ergebniss in der Konsole aus.
+
+### Beispiel
+
+```Csharp 
+string eingabe = Console.ReadLine();
+
+int zahl = Convert.ToInt32(eingabe);
+
+Console.WriteLine(zahl - 5);
+
+```
+
+### Eingabe des Alters.
+
+Das Program soll nun folgendes tun. Der Nutzer wird nach seinem Alter gefragt. Nach dem der Nutzer sein Alter eingeben hat, soll das Program dem Nutzer sein Alter plus 10 ausgeben.
+
+### Taschenrechner I
+
+Lese zwei Zahlen vom User ein. Berechne die Summe und die Differenz der beiden Zahlen und gebe jeweils das Ergebniss in der Konsole aus.
+
+
 ## Bedingte Ausdrücke und Boolean Variablen
+
+### Beispiel
+
+```Csharp 
+bool falsch = false;
+Console.WriteLine(falsch);
+
+bool wahr = true;
+Console.WriteLine(wahr);
+
+bool ungleich = (3==5);
+Console.WriteLine(ungleich);
+
+bool gleich = ("Hello"=="Hello");
+Console.WriteLine(gleich);
+```
+
+
+### Beispiel für eine If und else.
+
+```Csharp
+bool isRaining = false;
+
+if (isRaining == true)
+{
+    Console.WriteLine("Nimm einen Regenschirm mit.");
+}
+else 
+{
+    Console.WriteLine("Einen schönen sonnigen Tag.");
+}
+```
 
 ### Beendigte Ausgabe
 
@@ -144,20 +213,7 @@ Console.WriteLine(statement);
 
 Andere diesen Code so ab, dass true ausgeben wird.
 
-### Beispiel für eine If und else.
 
-```Csharp
-bool isRaining = false;
-
-if (isRaining == true)
-{
-    Console.WriteLine("Nimm einen Regenschirm mit.");
-}
-else 
-{
-    Console.WriteLine("Einen schönen sonnigen Tag.");
-}
-```
 
 ### Beispiel mit string variablen, if und else.
 
@@ -180,6 +236,14 @@ Speicher ein selbst ausgedachtes Password in eine string variable.
 Das Program fragt nach einem Password beim Nutzer.
 Wenn das eingeben Passwort gleich dem gespeicherten Passwort in der string Variable ist, dann soll dem Nutzer folgendes ausgeben werden "Access granted". Ansonsten soll "Access Denied" ausgeben werden.
 
+### Taschenrechner 2
+
+Frage den Nutzer welche zwei Zahlen er eingeben möchte.
+Frage den Nutzer welche Rechenoperation er ausführen möchte.
+Benutze if und else Statemments um dem Nutzer das richtige Ergebniss auszugeben.
+Will der Nutzer durch 0 teilen, schreibe eine Fehlermeldung in die Konsole.
+
+
 ## Zusatzaufgaben
 
 ### Weihnachtsbaum malen
@@ -200,6 +264,4 @@ Console.WriteLine(Math.Pow(3,4));
 ```
 Gibt den Wert $3^4$ in der Konsole aus. Finde heraus wie man die Fakultätsfunktion in C# benutzen kann und berechne $8!$.
 Finde eine Funktion aus Math, mit der man den Betrag eines Integer Wertes berechnen kann. Beispiel $|-2|=2=|2|$.
-
-
 
