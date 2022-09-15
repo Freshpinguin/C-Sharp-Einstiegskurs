@@ -290,8 +290,11 @@ Führe das obige Programm aus. Versuche nachzuvollziehen warum und wann die Schl
 Der Nutzer soll eine Zahl eingeben. Schreibe für jede kleinere Zahl, wenn sie die eingebebene Teilt, "{kleinereZahl} teilt {eingebebeneZahl} in die Konsole."
 
 Beispiel: Für die Eingabe 10 -> 
+
 "1 teilt 10"
+
 "2 teilt 10"
+
 "5 teilt 10.
 
 
