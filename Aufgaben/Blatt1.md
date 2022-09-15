@@ -250,17 +250,15 @@ Will der Nutzer durch 0 teilen, schreibe eine Fehlermeldung in die Konsole.
 ```Csharp
 int zähler = 0;
 
-while(true){
+while(zähler <= 10){
 
-Console.WriteLine("Das ist der "+zähler+"te Aufruf dieser Schleife");
+Console.WriteLine("Das ist der "+zähler+"te Aufruf dieser Schleife.");
 
 zähler = zähler + 1;
 
 }
 ```
-Führe das obige Programm aus. Abbrechen kann man mit dem viereckigen Stopp Button oben links.
-Warum läuft dieses Programm unendlich lange?
-
+Führe das obige Programm aus. Versuche nachzuvollziehen warum und wann die Schleife abbricht. Ändere das Programm so ab, dass der Console.WriteLine Befehl nur fünf mal ausgeführt wird. Ändere das Programm so ab, dass die Schleife unendlich lange weiterläuft.
     
 
 ## Zusatzaufgaben
