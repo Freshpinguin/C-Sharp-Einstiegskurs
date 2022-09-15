@@ -4,6 +4,9 @@
 
 Gehe auf die Internetseite von Visual Studio: https://visualstudio.microsoft.com/de/ 
 
+![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/macinstall_1.png)
+
+![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/macinstall_2.png)
 
 
 
