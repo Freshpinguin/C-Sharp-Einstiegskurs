@@ -131,7 +131,7 @@ Console.WriteLine(5%5);
 
 ```
 
-Versuche anhand der Console Ausgabe zu verstehen, was der $%$-Rechenoperator bewirkt.
+Versuche anhand der Console Ausgabe zu verstehen, was der $\%$-Rechenoperator bewirkt.
 
 ## Konvertieren von Integer zu String 
 
