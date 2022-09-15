@@ -118,6 +118,21 @@ Deklariere vier Integer Variablen num2, num3, num5, num7 mit den Werten 2,3,5 un
 
 Verbinde die Variablen mit genau drei Rechenoperationen, so dass der Ausdruck num2 _ num3 _ num5 _ num7 den Wert 0 annimmt und gebe diesen im Terminal aus.
 
+### Rechnen mit Rest
+
+
+```Csharp 
+
+Console.WriteLine(13%10);
+
+Console.WriteLine(7%2);
+
+Console.WriteLine(5%5);
+
+```
+
+Versuche anhand der Console Ausgabe zu verstehen, was der $%$-Rechenoperator bewirkt.
+
 ## Konvertieren von Integer zu String 
 
 ### Beispiel
