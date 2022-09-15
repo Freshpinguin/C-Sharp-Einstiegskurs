@@ -262,6 +262,12 @@ Will der Nutzer durch 0 teilen, schreibe eine Fehlermeldung in die Konsole.
 
 Der Nutzer soll eine Zahl eingeben. Wenn die Zahl gerade ist, schreibe "Die Zahl ist gerade" in die Konsole, sonst "Die Zahl ist ungerade".
 
+
+### Teilbarkeit
+
+Der Nutzer soll zwei Zahlen eingeben. Wenn die erste Zahl durch die zweite Teilbar ist, schreibe "{zahl1} ist durch {zahl2} teilbar" in die Konsole.
+
+
 ## Schleifen
 ### Beispiel
 
@@ -278,6 +284,16 @@ zähler = zähler + 1;
 ```
 Führe das obige Programm aus. Versuche nachzuvollziehen warum und wann die Schleife abbricht. Ändere das Programm so ab, dass der Console.WriteLine Befehl nur fünf mal ausgeführt wird. Ändere das Programm so ab, dass die Schleife unendlich lange weiterläuft.
     
+
+### Teilbarkeit durch kleiner Zahlen
+
+Der Nutzer soll eine Zahl eingeben. Schreibe für jede kleinere Zahl, wenn sie die eingebebene Teilt, "{kleinereZahl} teilt {eingebebeneZahl} in die Konsole."
+
+Beispiel: Für die Eingabe 10 -> 
+"1 teilt 10"
+"2 teilt 10"
+"5 teilt 10.
+
 
 ## Zusatzaufgaben
 
