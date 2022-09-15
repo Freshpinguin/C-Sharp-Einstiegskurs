@@ -258,7 +258,10 @@ zähler = zähler + 1;
 
 }
 ```
+Führe das obige Programm aus. Abbrechen kann man mit dem viereckigen Stopp Button oben links.
+Warum läuft dieses Programm unendlich lange?
 
+    
 
 ## Zusatzaufgaben
 
