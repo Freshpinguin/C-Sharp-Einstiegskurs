@@ -6,7 +6,13 @@ Gehe auf die Internetseite von Visual Studio: https://visualstudio.microsoft.com
 
 ![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/macinstall_1.png)
 
+Lade den Installer für Visual Studio für Mac Os runter. 
+
 ![alt text](https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Images/macinstall_2.png)
+
+Beim installieren wähle mindestens die Option Core .Net aus.
+
+
 
 
 
