@@ -244,6 +244,22 @@ Benutze if und else Statemments um dem Nutzer das richtige Ergebniss auszugeben.
 Will der Nutzer durch 0 teilen, schreibe eine Fehlermeldung in die Konsole.
 
 
+## Schleifen
+### Beispiel
+
+```Csharp
+int zähler = 0;
+
+while(true){
+
+Console.WriteLine("Das ist der "+zähler+"te Aufruf dieser Schleife");
+
+zähler = zähler + 1;
+
+}
+```
+
+
 ## Zusatzaufgaben
 
 ### Weihnachtsbaum malen
