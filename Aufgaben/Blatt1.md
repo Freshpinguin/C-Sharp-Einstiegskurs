@@ -211,7 +211,7 @@ else
 }
 ```
 
-### Beendigte Ausgabe
+### Bedingte Ausgabe
 
 Definiere eine boolean variable mit Wert false.
 Schreib ein If statement, dass prüft ob die boolean variable wahr ist. Falls das If statement wahr ist, dann soll die Ausgabe "Aussage ist wahr" auf der Konsole lauten.
@@ -285,13 +285,13 @@ zähler = zähler + 1;
 Führe das obige Programm aus. Versuche nachzuvollziehen warum und wann die Schleife abbricht. Ändere das Programm so ab, dass der Console.WriteLine Befehl nur fünf mal ausgeführt wird. Ändere das Programm so ab, dass die Schleife unendlich lange weiterläuft.
 
 
-### Teilbarkeit durch kleiner Zahlen I
-Schreibe ein Programm, das für jede Zahl die kleiner als 20 ist, ausgibt, ob diese 20 teilt.
+### Teilbarkeit durch kleinere Zahlen I
+Schreibe ein Programm, das für jede Zahl die kleiner gleich als 20 ist, ausgibt, ob diese 20 teilt.
  
 
-### Teilbarkeit durch kleiner Zahlen II
+### Teilbarkeit durch kleinere Zahlen II
 
-Der Nutzer soll eine Zahl eingeben. Schreibe für jede kleinere Zahl, wenn sie die eingebebene Teilt, "{kleinereZahl} teilt {eingebebeneZahl} in die Konsole."
+Der Nutzer soll eine Zahl eingeben. Schreibe für jede kleinere oder gleiche Zahl, wenn sie die eingebebene Teilt, "{kleinereZahl} teilt {eingegebeneZahl} in die Konsole."
 
 Beispiel: Für die Eingabe 10 -> 
 
@@ -299,7 +299,22 @@ Beispiel: Für die Eingabe 10 ->
 
 "2 teilt 10"
 
-"5 teilt 10.
+"5 teilt 10"
+
+"10 teilt 10"
+
+### Teilbarkeit durch kleine Zahlen III
+
+Der Nutzer soll eine Zahl eingeben. Gebe die Anzahl der kleineren oder gleichen Zahlen aus, welche die eingegebene Zahl teilen.
+Wenn die Zahl nur durch zwei Zahlen Teilbar ist (sich selber und 1), schreibe "{eingegebeneZahl} ist Primzahl" in die Konsole.
+
+Beispiel: Für die Eingabe 10 ->
+
+"10 ist durch 4 Zahlen teilbar".
+
+Beispiel: Für die Eingabe 7 ->
+
+"7 ist eine Primzahl".
 
 
 ## Zusatzaufgaben
