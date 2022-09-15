@@ -131,7 +131,7 @@ Console.WriteLine(5%5);
 
 ```
 
-Versuche anhand der Console Ausgabe zu verstehen, was der %-Rechenoperator bewirkt.
+Versuche anhand der Consolen Ausgabe zu verstehen, was der %-Rechenoperator bewirkt.
 
 ## Konvertieren von Integer zu String 
 
@@ -258,6 +258,9 @@ Frage den Nutzer welche Rechenoperation er ausführen möchte.
 Benutze if und else Statemments um dem Nutzer das richtige Ergebniss auszugeben.
 Will der Nutzer durch 0 teilen, schreibe eine Fehlermeldung in die Konsole.
 
+### Gerade und ungerade Zahlen
+
+Der Nutzer soll eine Zahl eingeben. Wenn die Zahl gerade ist, schreibe "Die Zahl ist gerade" in die Konsole, sonst "Die Zahl ist ungerade".
 
 ## Schleifen
 ### Beispiel
