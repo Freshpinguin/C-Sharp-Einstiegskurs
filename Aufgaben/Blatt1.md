@@ -283,9 +283,13 @@ zähler = zähler + 1;
 }
 ```
 Führe das obige Programm aus. Versuche nachzuvollziehen warum und wann die Schleife abbricht. Ändere das Programm so ab, dass der Console.WriteLine Befehl nur fünf mal ausgeführt wird. Ändere das Programm so ab, dass die Schleife unendlich lange weiterläuft.
-    
 
-### Teilbarkeit durch kleiner Zahlen
+
+### Teilbarkeit durch kleiner Zahlen I
+Schreibe ein Programm, das für jede Zahl die kleiner als 20 ist, ausgibt, ob diese 20 teilt.
+ 
+
+### Teilbarkeit durch kleiner Zahlen II
 
 Der Nutzer soll eine Zahl eingeben. Schreibe für jede kleinere Zahl, wenn sie die eingebebene Teilt, "{kleinereZahl} teilt {eingebebeneZahl} in die Konsole."
 
