@@ -43,7 +43,7 @@ Gebe den Inhalt dieser Variable im Terminal aus.
 
 Gebe den Inhalt dieser Variable erneut im Terminal aus.
 
-### Konkatinieren einer Variable mit einem Text
+### Konkatenieren einer Variable mit einem Text
 
 Deklariere eine String Variable mit deinem Namen als Text.
 
@@ -316,6 +316,35 @@ Beispiel: Für die Eingabe 7 ->
 
 "7 ist eine Primzahl".
 
+### Zeichen Ausgabe mit Loop I
+
+Der Nutzer wird um die Eingabe für eine Zeichen gefragt. Danach soll der Nutzer in der Konsole noch eine positive Zahl eingeben. Im Anschluss soll die Konsole die 1. Eingabe als Zeichenkette n, 2. Eingabe. mal ausgeben.
+
+Beispiel: Nutzer gibt **X** als erstes ein. Dann gibt der Nutzer die Zahl 10 ein. Die Konsole gibt dann folgendes aus:
+
+```
+XXXXXXXXXX
+```
+
+### Zeichen Ausgabe mit Loop II
+
+Falls die Eingabe des Nutzers kleiner als 1 ist, dann soll die Konsole eine Fehlermeldung ausgeben wie zum Beispiel: "Bitte gebe eine Zahl größer ein als 0 !".
+
+### Zeichen Ausgabe mit Loop III
+
+Nun soll der Nutzer 3 Eingaben machen. Die ersten 2 wie bei Aufgabe **Zeichen Ausgabe mit Loop II**. Die 3. Eingabe ist auch eine Zahl größer als 0.
+Die Ausgabe soll dann n Zeilen, 3. Eingabe, jeweils n, 2. Eingabe, mal die Zeichenkette, 1. Eingabe sein.
+
+Beispiel: Nutzer gibt als erstes folgendes ein: H. Dann gibt er als zweites 10 und 5 als drittes ein.
+Die Beispiel Ausgabe ist dann:
+
+```
+HHHHHHHHHH
+HHHHHHHHHH
+HHHHHHHHHH
+HHHHHHHHHH
+HHHHHHHHHH
+```
 
 ## Zusatzaufgaben
 
