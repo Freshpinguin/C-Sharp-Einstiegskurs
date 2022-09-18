@@ -332,6 +332,8 @@ Falls die Eingabe des Nutzers kleiner als 1 ist, dann soll die Konsole eine Fehl
 
 ### Zeichen Ausgabe mit Loop III
 
+Vor dieser Aufgabe kann ein Blick auf diesen Abschnitt [Teil, Abschnitt Nested Loops im separaten Skript](./skript.md#nested-loops) zu werfen.
+
 Nun soll der Nutzer 3 Eingaben machen. Die ersten 2 wie bei Aufgabe **Zeichen Ausgabe mit Loop II**. Die 3. Eingabe ist auch eine Zahl größer als 0.
 Die Ausgabe soll dann n Zeilen, 3. Eingabe, jeweils n, 2. Eingabe, mal die Zeichenkette, 1. Eingabe sein.
 
