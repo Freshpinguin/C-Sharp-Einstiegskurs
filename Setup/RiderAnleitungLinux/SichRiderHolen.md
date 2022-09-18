@@ -180,4 +180,4 @@ Nun könnt ihr Projekte anlegen.
 
 Achtung man muss nun noch die Runtime und Development Umgebung für C# installieren um auch in Rider C# Projekte anzulegen.
 
-**ToDO:** Anleitung schreiben für Installation von C# Umgebung auf Linux.
+Siehe [Setup_Csharp_Linux](../Setup_Csharp_linux.md)
