@@ -316,6 +316,7 @@ Beispiel: Für die Eingabe 7 ->
 
 "7 ist eine Primzahl".
 
+
 ### Zeichen Ausgabe mit Loop I
 
 Der Nutzer wird um die Eingabe für eine Zeichen gefragt. Danach soll der Nutzer in der Konsole noch eine positive Zahl eingeben. Im Anschluss soll die Konsole die 1. Eingabe als Zeichenkette n, 2. Eingabe. mal ausgeben.
@@ -350,10 +351,25 @@ HHHHHHHHHH
 
 ## Zusatzaufgaben
 
+Diese Aufgaben dienen zur Vertiefung vor allem nach dem Brückenkurs.
+
 ### Weihnachtsbaum malen
 
 Gebe in der Konsole ein Weihnachtsbaum aus.
 
+### Ratespiel
+
+Bei diesem Spiel gibt der Nutzer solange eine Zahl von 0 bis 100 ein bis er die richtige Zahl erraten hat.
+ 
+- Diese richtige Zahl wird in einer Variable festgelegt. 
+- Falls die eingeben Zahl falsch ist dann:
+    - Wenn die eingebende Zahl kleiner ist als die richtige Zahl,
+dann soll dem Nutzer angezeigt werden, dass die Zahl zu klein ist. 
+    - Wenn die eingebende Zahl größer ist als die richtige Zahl,
+dann soll dem Nutzer angezeigt werden, dass die Zahl zu groß ist.
+    - Der Nutzer wieder erneut um die Eingabe einer Zahl gebeten.
+- Wenn der Nutzer die richtige Zahl eingeben hat, dann soll ihm gratuliert werden 
+Auch soll angezeigt werden wie viele Versuche gebraucht wurden. 
 
 ## Google Aufgaben
 
@@ -368,4 +384,5 @@ Console.WriteLine(Math.Pow(3,4));
 ```
 Gibt den Wert $3^4$ in der Konsole aus. Finde heraus wie man die Fakultätsfunktion in C# benutzen kann und berechne $8!$.
 Finde eine Funktion aus Math, mit der man den Betrag eines Integer Wertes berechnen kann. Beispiel $|-2|=2=|2|$.
+
 
