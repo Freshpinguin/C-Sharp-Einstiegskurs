@@ -317,6 +317,49 @@ Beispiel: Für die Eingabe 7 ->
 "7 ist eine Primzahl".
 
 
+### Fizz buzz
+
+Der Nutzer gibt eine positive Zahl ein. 
+Danach soll dem Nutzer eine Zeile für jede Zahl von 1 bis zur eingebenden 
+
+Zahl ausgeben werden, nach folgenden Regeln:  
+- Ist die Zahl durch 3 teilbar, dann soll "fizz" ausgeben werden.
+- Ist die Zahl durch 5 teilbar, dann soll "buzz" ausgeben werden.
+- Ansonsten soll die Zahl selbst ausgeben werden.
+
+Am Ende, nach Ausgabe von 1 bis zur eingebenden Zahl, soll noch die Anzahl von 
+ausgeben fizz und buzz Zeilen ausgeben werden.
+
+Beispiel:
+
+Nutzer gibt 20 ein, dann kann die Ausgabe ungefähr so sein:
+```
+1
+2 
+Fizz 
+4 
+Buzz 
+Fizz 
+7 
+8 
+Fizz 
+Buzz 
+11 
+Fizz 
+13 
+14 
+Fizz 
+Buzz 
+16 
+17 
+Fizz 
+19
+Buzz
+
+Anzahl von Fizz: 6
+Anzahl von Buzz: 4
+```
+
 ### Zeichen Ausgabe mit Loop I
 
 Der Nutzer wird um die Eingabe für eine Zeichen gefragt. Danach soll der Nutzer in der Konsole noch eine positive Zahl eingeben. Im Anschluss soll die Konsole die 1. Eingabe als Zeichenkette n, 2. Eingabe. mal ausgeben.
