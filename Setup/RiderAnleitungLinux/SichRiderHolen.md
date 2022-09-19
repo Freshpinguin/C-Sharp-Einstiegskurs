@@ -1,5 +1,11 @@
 # Rider als Software um mit CSharp zu arbeiten.
 
+So wie man texte in Word, OpenOffice oder LibreOffice schreibt, gibt es auch 
+für die Programmierung spezielle Software. Um in C# effektive arbeiten zu können 
+brauchen wir soll eine Software. Hier wird gezeigt wie man Rider herunterladen und
+installieren kann. Soll Software hilf stark weiter und wandelt euren C# Code in
+ein ausführbares Program um. 
+
 Rider ist eine Software wie Visual Studio. Kann aber auch auf Linux verwendet werden.
 Kann auch natürlich auch für Windows und Mac genutzt werden.
 
