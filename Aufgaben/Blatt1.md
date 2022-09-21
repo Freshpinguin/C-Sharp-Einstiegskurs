@@ -392,6 +392,28 @@ HHHHHHHHHH
 HHHHHHHHHH
 ```
 
+### Wechselgeld 
+
+Der Nutzer soll zweimal eine ganze Zahl, welche größer ist als 0, eingeben.
+Diese Zahlen sind als Centbeträge zu verstehen.
+
+Die 1. Zahl ist das gezahltes Geld. 
+Die 2. Zahl ist der Preis.
+
+Das Program soll nun das Wechselgeld 
+in Form von 100, 50, 25, 10, 5 cent Stücken ausgeben.
+
+Dabei soll immer wenn möglich das höchste cent Stück ausgeben werden.
+Beispiel: Zuerst werden 240 Cents, Einzahlung, eingeben. 
+Dann werden 156 Cents als 2. Zahle, Preis, eingeben.
+Dann sollte die Ausgabe folgende sein: 50 25 5 1.
+Hintergrund: Wechselgeld ist hier 81 als Gesamtbetrag.
+
+**Sonderfall:** falls der eingebene Preis, die 2. Zahl, größer ist 
+als der gezahlte Betrag, 2. Zahl. Dann soll ausgeben werden, dass sich der Nutzer
+das nicht leisten kann.   
+
+
 ## Zusatzaufgaben
 
 Diese Aufgaben dienen zur Vertiefung vor allem nach dem Brückenkurs.
