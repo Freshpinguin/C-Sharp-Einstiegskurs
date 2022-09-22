@@ -436,6 +436,10 @@ dann soll dem Nutzer angezeigt werden, dass die Zahl zu groß ist.
 - Wenn der Nutzer die richtige Zahl eingeben hat, dann soll ihm gratuliert werden 
 Auch soll angezeigt werden wie viele Versuche gebraucht wurden. 
 
+### Maximaler Integer Wert
+
+Versuche durch eine While Schleife herauszufinden, was passiert wenn man eine Integer Variable unendlich vergößert. Versuche den Maximalen Wert herausfinden, den eine Integer Variable annehmen kann.
+
 ## Google Aufgaben
 
 ### Escape Zeichen
