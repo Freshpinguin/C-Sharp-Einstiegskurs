@@ -320,9 +320,7 @@ Beispiel: Für die Eingabe 7 ->
 ### Fizz buzz
 
 Der Nutzer gibt eine positive Zahl ein. 
-Danach soll dem Nutzer eine Zeile für jede Zahl von 1 bis zur eingebenden 
-
-Zahl ausgeben werden, nach folgenden Regeln:  
+Danach soll dem Nutzer je eine Zeile für jede Zahl zwischen 1 und der eingebenden Zahl ausgeben werden, nach folgenden Regeln:  
 - Ist die Zahl durch 3 teilbar, dann soll "fizz" ausgeben werden.
 - Ist die Zahl durch 5 teilbar, dann soll "buzz" ausgeben werden.
 - Ansonsten soll die Zahl selbst ausgeben werden.
@@ -362,9 +360,10 @@ Anzahl von Buzz: 4
 
 ### Zeichen Ausgabe mit Loop I
 
-Der Nutzer wird um die Eingabe für eine Zeichen gefragt. Danach soll der Nutzer in der Konsole noch eine positive Zahl eingeben. Im Anschluss soll die Konsole die 1. Eingabe als Zeichenkette n, 2. Eingabe. mal ausgeben.
+Der Nutzer wird um die Eingabe für ein Zeichen gebeten. Danach soll der Nutzer noch eine positive Zahl eingeben. Im Anschluss soll in der Konsole das eingegebene Zeichen, 1. Eingabe,
+n mal ausgeben werden, 2. Eingabe.
 
-Beispiel: Nutzer gibt **X** als erstes ein. Dann gibt der Nutzer die Zahl 10 ein. Die Konsole gibt dann folgendes aus:
+Beispiel: Nutzer gibt **X** als erstes ein. Danach gibt der Nutzer die Zahl 10 ein. Die Konsole gibt dann folgendes aus:
 
 ```
 XXXXXXXXXX
@@ -372,17 +371,19 @@ XXXXXXXXXX
 
 ### Zeichen Ausgabe mit Loop II
 
-Falls die Eingabe des Nutzers kleiner als 1 ist, dann soll die Konsole eine Fehlermeldung ausgeben wie zum Beispiel: "Bitte gebe eine Zahl größer ein als 0 !".
+Falls die Eingabe des Nutzers kleiner als 1 ist, dann soll eine Fehlermeldung ausgeben werden , wie zum Beispiel: "Bitte gebe eine Zahl größer ein als 0 !".
 
 ### Zeichen Ausgabe mit Loop III
 
-Vor dieser Aufgabe kann ein Blick auf diesen Abschnitt [Teil, Abschnitt Nested Loops im separaten Skript](./skript.md#nested-loops) zu werfen.
+Vor dieser Aufgabe kann ein Blick auf diesen Abschnitt [Teil, Abschnitt Nested Loops im separaten Skript](./skript.md#nested-loops) helfen.
 
-Nun soll der Nutzer 3 Eingaben machen. Die ersten 2 wie bei Aufgabe **Zeichen Ausgabe mit Loop II**. Die 3. Eingabe ist auch eine Zahl größer als 0.
-Die Ausgabe soll dann n Zeilen, 3. Eingabe, jeweils n, 2. Eingabe, mal die Zeichenkette, 1. Eingabe sein.
+Nun soll der Nutzer 3 Eingaben machen. Die ersten 2 sollen erfolgen wie bei vorigen Aufgabe **Zeichen Ausgabe mit Loop II**. 
+Die 3. Eingabe ist auch eine ganze Zahl größer als 0.
+Es soll dann n-mal Zeilen, 3. Eingabe, ausgeben werden.
+Jede Zeile soll nur aus dem eingegeben Zeichen, 1. Eingabe, bestehen. Jede Zeile soll genau k-mal lang sein, 2. Eingabe.
 
-Beispiel: Nutzer gibt als erstes folgendes ein: H. Dann gibt er als zweites 10 und 5 als drittes ein.
-Die Beispiel Ausgabe ist dann:
+Beispiel: Nutzer gibt als erstes H als Zeichen ein. Danach wird 10 und dann 5 eingeben.
+Die Ausgabe ist dann:
 
 ```
 HHHHHHHHHH
@@ -400,17 +401,18 @@ Diese Zahlen sind als Centbeträge zu verstehen.
 Die 1. Zahl ist das gezahltes Geld. 
 Die 2. Zahl ist der Preis.
 
-Das Program soll nun das Wechselgeld 
-in Form von 100, 50, 25, 10, 5 cent Stücken ausgeben.
+Das Program soll nun das Wechselgeld als Centstücken ausgeben werden.
+Folgende Centstücke können zurück gegeben werden.
+(1, 5, 10, 25, 50, 100)
 
-Dabei soll immer wenn möglich das höchste cent Stück ausgeben werden.
+Dabei soll immer wenn möglich das höchste Centstück ausgeben werden.
 Beispiel: Zuerst werden 240 Cents, Einzahlung, eingeben. 
-Dann werden 156 Cents als 2. Zahle, Preis, eingeben.
+Dann werden 156 Cents als Preis, 2. Zahl, eingeben.
 Dann sollte die Ausgabe folgende sein: 50 25 5 1.
 Hintergrund: Wechselgeld ist hier 81 als Gesamtbetrag.
 
-**Sonderfall:** falls der eingebene Preis, die 2. Zahl, größer ist 
-als der gezahlte Betrag, 2. Zahl. Dann soll ausgeben werden, dass sich der Nutzer
+**Sonderfall:** falls der eingegebene Preis, die 2. Zahl, größer ist 
+als der gezahlte Betrag, 1. Zahl. Dann soll ausgeben werden, dass sich der Nutzer
 das nicht leisten kann.   
 
 
