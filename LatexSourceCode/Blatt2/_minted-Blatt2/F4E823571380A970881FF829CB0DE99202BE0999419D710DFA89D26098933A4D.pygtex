@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{falsch}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{k}{false}\PYG{p}{;}
+\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{wahr}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{k}{true}\PYG{p}{;}
+
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{falsch}\PYG{p}{);}
+
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{wahr}\PYG{p}{);}
+
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{wahr}\PYG{+w}{ }\PYG{p}{\PYGZam{}\PYGZam{}}\PYG{+w}{ }\PYG{n}{falsch}\PYG{p}{);}
+
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{wahr}\PYG{+w}{ }\PYG{p}{||}\PYG{+w}{ }\PYG{n}{falsch}\PYG{p}{);}
+
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(!}\PYG{n}{wahr}\PYG{p}{);}
+\end{Verbatim}

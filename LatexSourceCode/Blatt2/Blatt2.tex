@@ -1,0 +1,279 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{minted}
+\usemintedstyle{vs}
+\usepackage{fancyhdr}
+\usepackage{fancyheadings}
+\usepackage[ngerman,german]{babel}
+\usepackage{german}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[active]{srcltx}
+\usepackage{algorithm}
+\usepackage[noend]{algorithmic}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{bbm}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{ifthen}
+\usepackage{listings}
+\usepackage{struktex}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{positioning,automata}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% EDIT THIS PART %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Fach}{C\#}
+\newcommand{\Name}{Fachschaft}
+\newcommand{\Tutorium}{}
+\newcommand{\Semester}{OHM }
+\newcommand{\KlausurLoesung }{SoSe2020} %  <-- UPDATE ME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\parindent}{0em}
+\topmargin -1.0cm
+\oddsidemargin 0cm
+\evensidemargin 0cm
+\setlength{\textheight}{9.2in}
+\setlength{\textwidth}{6.0in}
+
+%%%%%%%%%%%%%%%
+%% Aufgaben-COMMAND
+\newcommand{\Aufgabe}[1]{
+  {
+  \vspace*{0.5cm}
+  \textsf{\textbf{Aufgabe #1}}
+  \vspace*{0.2cm}
+  
+  }
+}
+
+\newcommand{\Definition}[1]{
+  {
+  \vspace*{0.5cm}
+  \textsf{\textbf{#1}}
+  \vspace*{0.2cm}
+  
+  }
+}
+
+%%%%%%%%%%%%%%
+\hypersetup{
+    pdftitle={\Fach{}: Übungsblatt \KlausurLoesung{}},
+    pdfauthor={\Name},
+    pdfborder={0 0 0}
+}
+
+\lstset{ %
+language=java,
+basicstyle=\footnotesize\tt,
+showtabs=false,
+tabsize=2,
+captionpos=b,
+breaklines=true,
+extendedchars=true,
+showstringspaces=false,
+flexiblecolumns=true,
+}
+
+\title{Übungsblatt Deterministische Endliche Automaten}
+\author{\Name{}}
+
+\begin{document}
+\thispagestyle{fancy}
+\lhead{\sf \large \Fach{} \\ \small \Name{} }
+\rhead{\sf \Semester{} \\  Brückenkurs \Tutorium{}}
+\vspace*{0.2cm}
+\begin{center}
+\LARGE \sf \textbf{Blatt 2}
+\end{center}
+\vspace*{0.2cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Insert your solutions here %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Boolean Variablen}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+bool falsch = false;
+bool wahr = true;
+
+Console.WriteLine(falsch);
+
+Console.WriteLine(wahr);
+
+Console.WriteLine(wahr && falsch);
+
+Console.WriteLine(wahr || falsch);
+
+Console.WriteLine(!wahr);
+\end{minted}
+
+
+
+\Aufgabe{1} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeilen aus dem Beispiel in Visual Studio und führe sie aus!
+\item
+Versuche durch ausprobieren mit verschiedenen Belegungen herauszufinden, was der $ || $, der $!$ und was der \&\&  Operator bewirken.
+\end{enumerate}
+
+\section{If Else Statements}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+bool isRaining = false;
+
+if (isRaining)
+{
+    Console.WriteLine("Nimm einen Regenschirm mit.");
+}
+else 
+{
+    Console.WriteLine("Einen schönen sonnigen Tag.");
+}
+\end{minted}
+
+\Aufgabe{2} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeilen aus dem Beispiel in Visual Studio und führe sie aus!
+\item 
+Ändere das Programm so ab, dass ''Nimm einen Regenschirm mit''  ausgegeben wird.
+\item
+Definiere eine weitere Boolean Variable isFreezing. \\
+Wenn es kalt ist und regnet gebe aus: ''Ziehe eine Jacke an und nimm einen Schirm mit''. \\
+Wenn es kalt ist und  nicht regnet gebe aus: ''Zieh einen Pullover an.'' \\
+Wenn es warm ist und regnet gebe aus: ''Singing in the Rain''. 
+\end{enumerate}
+
+\section{Vergleichsoperationen}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+bool kleiner = 3 < 4;
+Console.WriteLine(kleiner);
+
+bool größer = 25 > 13;
+Console.WriteLine(größer);
+
+bool gleich = (3 * 2 + 14) == 22;
+Console.WriteLine(gleich);
+
+bool größergleich = 15 >= 17;
+Console.WriteLine(größergleich);
+
+bool gleich2 = "Apfel" == "Birne";
+Console.WriteLine(gleich2);
+\end{minted}
+
+\Aufgabe{3} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeilen aus dem Beispiel in Visual Studio und führe sie aus!
+\item 
+Ändere das Programm so ab, dass in jedem Console.WriteLine() true ausgegeben wird.
+\item
+Ändere das Programm in Aufgabe 2 c) so ab, dass der Nutzer am Anfang gefragt wird ob es regnet oder kalt ist.
+\item
+Speicher ein selbstausgedachtes Passwort in einer String Variable.
+Das Programm fragt nach einem Password beim Nutzer.
+Wenn das eingegebene Passwort gleich dem gespeicherten Passwort ist, dann soll dem Nutzer ''access granted'', ansonsten ''access denied'' ausgeben werden.
+\item 
+Schreibe ein Programm, dass den Nutzer drei Integer Zahlen eingeben lässt. Finde durch Vergleichsoperationen und If-Else Statements heraus, welche den kleinsten Wert hat und gebe diese in die Konsole aus.
+\item
+Frage den Nutzer welche zwei Zahlen er eingeben möchte. \\
+Frage den Nutzer ob er Multiplizieren, Addieren oder Subtrahieren will. \\
+Benutze if und else Statements um dem Nutzer das richtige Ergebnis auszugeben. \\
+
+\end{enumerate}
+
+\section{Teilbarkeit}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+int input = 12;
+
+if(input%2==0)
+{
+    Console.WriteLine("Die Zahl ist durch 2 Teilbar");
+}
+\end{minted}
+
+\Aufgabe{4} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeilen aus dem Beispiel in Visual Studio und führe sie aus!
+\item 
+Ändere das Programm so ab, dass die if-Bedingung nicht erfüllt ist.
+\item
+Ändere das Programm so ab, dass der Nutzer eine Eingabe macht und für diese Überprüft wird, ob die Zahl durch zwei teilbar ist.
+\item
+Ändere das Programm so ab, dass auch überprüft wird, ob die Eingabe durch drei und durch fünf teilbar ist. \\
+Wenn ja soll ebenfalls ausgegeben werden: ''Die Zahl ist durch 5 teilbar''. \\
+Beispiel für die Zahl 15. Ausgabe: \\
+''Die Zahl ist durch 3 teilbar'' \\
+''Die Zahl ist durch 5 teilbar'' \\
+\item
+Deklariere eine Boolean Variable isTeilbar mit false. In jedem If Statement wird die Variable auf true gesetzt. \\
+Wenn die Variable bis zum Ende auf false bleibt, schreibe: ''Die Eingegebene Zahl ist eine Primzahl'' 
+in die Konsole.
+\item
+Was müsste man tun um das auch für Zahlen größer als 25 zu überprüfen? \\
+Wie müsste ein Programm aussehen, dass für beliebig große Zahlen überprüft ob sie eine Primzahl sind?
+\end{enumerate}
+
+\section{Double Variablen}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+double zahl = 13.2;
+
+Console.WriteLine(zahl / 3);
+\end{minted}
+
+\Aufgabe{5} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeilen aus dem Beispiel in Visual Studio und führe sie aus!
+\item
+Probieren mit der Double Variablen alle Rechenoperationen aus.
+\item
+Versuche mit Google eigenständig herauszufinden, wie man eine String Variable in eine Double Variable Konvertieren kann.
+\item
+Frage den Nutzer welche zwei Zahlen er eingeben möchte. \\
+Frage den Nutzer welche Rechenoperation er ausführen möchte. \\
+Benutze if und else Statements um dem Nutzer das richtige Ergebnis auszugeben. \\
+Wenn der Nutzer durch 0 teilen möchte, gib stattdessen einen Fehlertext in der Konsole aus.
+
+\end{enumerate}
+
+\section{Rechenoperationen}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+Console.WriteLine(Math.Pow(3,4));
+\end{minted}
+
+\Aufgabe{6} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeile aus dem Beispiel in Visual Studio und führe sie aus! Versuche herauszufinden, was die Math.Pow() Funktion bewirkt.
+\item
+Versuche mit Google eigenständig herauszufinden, wie man die Fakultätsfunktion berechnen kann.
+\item
+Versuche mit Google eigenständig herauszufinden, wie man die Wurzelfunktion berechnen kann.
+\item
+Verändere das Programm aus 5 d) so, dass auch die Wurzelfunktion und die Potenzfunktion berechnet werden kann.
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+

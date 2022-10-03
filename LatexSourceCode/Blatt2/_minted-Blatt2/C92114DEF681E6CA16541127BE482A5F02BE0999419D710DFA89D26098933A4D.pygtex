@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{kleiner}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m}{3}\PYG{+w}{ }\PYG{p}{\PYGZlt{}}\PYG{+w}{ }\PYG{l+m}{4}\PYG{p}{;}
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{kleiner}\PYG{p}{);}
+
+\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{größer}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m}{25}\PYG{+w}{ }\PYG{p}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+m}{13}\PYG{p}{;}
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{größer}\PYG{p}{);}
+
+\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{gleich}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{l+m}{3}\PYG{+w}{ }\PYG{p}{*}\PYG{+w}{ }\PYG{l+m}{2}\PYG{+w}{ }\PYG{p}{+}\PYG{+w}{ }\PYG{l+m}{14}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{==}\PYG{+w}{ }\PYG{l+m}{22}\PYG{p}{;}
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{gleich}\PYG{p}{);}
+
+\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{größergleich}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m}{15}\PYG{+w}{ }\PYG{p}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m}{17}\PYG{p}{;}
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{größergleich}\PYG{p}{);}
+
+\PYG{k+kt}{bool}\PYG{+w}{ }\PYG{n}{gleich2}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Apfel\PYGZdq{}}\PYG{+w}{ }\PYG{p}{==}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Birne\PYGZdq{}}\PYG{p}{;}
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{gleich2}\PYG{p}{);}
+\end{Verbatim}

@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{input}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m}{12}\PYG{p}{;}
+\PYG{k}{if}\PYG{p}{(}\PYG{n}{input}\PYG{p}{\PYGZpc{}}\PYG{l+m}{2}\PYG{p}{==}\PYG{l+m}{0}\PYG{p}{)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Die Zahl ist durch 2 Teilbar\PYGZdq{}}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

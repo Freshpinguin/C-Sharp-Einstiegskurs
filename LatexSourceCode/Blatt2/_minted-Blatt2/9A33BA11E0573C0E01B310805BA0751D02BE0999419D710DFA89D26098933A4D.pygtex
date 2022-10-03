@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{zahl}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m}{13.2}\PYG{p}{;}
+
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{zahl}\PYG{+w}{ }\PYG{p}{/}\PYG{+w}{ }\PYG{l+m}{3}\PYG{p}{);}
+\end{Verbatim}
