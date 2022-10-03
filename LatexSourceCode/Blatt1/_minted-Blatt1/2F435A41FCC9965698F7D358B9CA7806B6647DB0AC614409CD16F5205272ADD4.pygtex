@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{zahl}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m}{13}\PYG{p}{;}
+
+\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{dreizehn}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{zahl}\PYG{p}{.}\PYG{n}{ToString}\PYG{p}{();}
+
+\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{sieben}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}7\PYGZdq{}}\PYG{p}{;}
+
+\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{hundertsiebenundreissig}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{dreizehn}\PYG{+w}{ }\PYG{p}{+}\PYG{+w}{ }\PYG{n}{sieben}\PYG{p}{;}
+
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{ergebnis}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{Convert}\PYG{p}{.}\PYG{n}{ToInt32}\PYG{p}{(}\PYG{n}{hundertsiebenundreissig}\PYG{p}{);}
+
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{ergebnis}\PYG{p}{);}
+\end{Verbatim}

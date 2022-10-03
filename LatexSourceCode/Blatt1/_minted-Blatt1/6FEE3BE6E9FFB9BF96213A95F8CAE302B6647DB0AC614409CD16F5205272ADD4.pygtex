@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{zahl}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m}{5}\PYG{p}{;}
+
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{zahl}\PYG{+w}{ }\PYG{p}{+}\PYG{+w}{ }\PYG{l+m}{5}\PYG{p}{);}
+\end{Verbatim}
