@@ -1,0 +1,271 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{minted}
+\usemintedstyle{vs}
+\usepackage{fancyhdr}
+\usepackage{fancyheadings}
+\usepackage[ngerman,german]{babel}
+\usepackage{german}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[active]{srcltx}
+\usepackage{algorithm}
+\usepackage[noend]{algorithmic}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{bbm}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{ifthen}
+\usepackage{listings}
+\usepackage{struktex}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{positioning,automata}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% EDIT THIS PART %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Fach}{C\#}
+\newcommand{\Name}{Fachschaft}
+\newcommand{\Tutorium}{}
+\newcommand{\Semester}{OHM }
+\newcommand{\KlausurLoesung }{SoSe2020} %  <-- UPDATE ME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\parindent}{0em}
+\topmargin -1.0cm
+\oddsidemargin 0cm
+\evensidemargin 0cm
+\setlength{\textheight}{9.2in}
+\setlength{\textwidth}{6.0in}
+
+%%%%%%%%%%%%%%%
+%% Aufgaben-COMMAND
+\newcommand{\Aufgabe}[1]{
+  {
+  \vspace*{0.5cm}
+  \textsf{\textbf{Aufgabe #1}}
+  \vspace*{0.2cm}
+  
+  }
+}
+
+\newcommand{\Definition}[1]{
+  {
+  \vspace*{0.5cm}
+  \textsf{\textbf{#1}}
+  \vspace*{0.2cm}
+  
+  }
+}
+
+%%%%%%%%%%%%%%
+\hypersetup{
+    pdftitle={\Fach{}: Übungsblatt \KlausurLoesung{}},
+    pdfauthor={\Name},
+    pdfborder={0 0 0}
+}
+
+\lstset{ %
+language=java,
+basicstyle=\footnotesize\tt,
+showtabs=false,
+tabsize=2,
+captionpos=b,
+breaklines=true,
+extendedchars=true,
+showstringspaces=false,
+flexiblecolumns=true,
+}
+
+\title{Übungsblatt Deterministische Endliche Automaten}
+\author{\Name{}}
+
+\begin{document}
+\thispagestyle{fancy}
+\lhead{\sf \large \Fach{} \\ \small \Name{} }
+\rhead{\sf \Semester{} \\  Brückenkurs \Tutorium{}}
+\vspace*{0.2cm}
+\begin{center}
+\LARGE \sf \textbf{Blatt 1}
+\end{center}
+\vspace*{0.2cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Insert your solutions here %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Schreiben in die Konsole}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+Console.WriteLine("Dies ist mein erstes C# Project!");
+\end{minted}
+
+
+
+\Aufgabe{1} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeile aus dem Beispiel in Visual Studio und führe sie aus!
+\item
+Ändere das Programm so ab, dass ''Hello World !''  ausgegeben wird.
+\item
+Ändere den Ausgabetext so ab, dass ''Hallo, meine Name ist ..'' in die Konsole geschrieben wird.
+\item 
+Gebe einen Text aus, der aus mehreren Zeilen besteht. Schreibe einen Smiley pro Zeile:
+\begin{verbatim}
+(^_^) [o_O] (°.°) (+_+) {$.$}
+\end{verbatim}
+Verwende dafür mehrere Console.WriteLine() aufrufe.
+\item
+Finde durch selbstständiges Googeln heraus wie man eine neue Zeile in einem String erzeugt, ohne ein erneutes Console.WriteLine() auszuführen. \\
+Tipp: Escape Newline Character in C\#. \\
+Ändere nun Aufgabe d) so zu einem einzigen Console.WriteLine() Aufruf ab.
+\item
+Werde selber kreativ und male ein Bild aus Sonderzeichen und schreibe es in die Konsole.
+
+\end{enumerate}
+
+\section{String Variablen}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+string var = "Meine erste Variable!";
+
+Console.WriteLine(var);
+\end{minted}
+
+\Aufgabe{2} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeile aus dem Beispiel in Visual Studio und führe sie aus!
+\item 
+Ändere den Wert der Variable zu ''Dies ist eine String Variable'' und schreibe diesen in die Konsole.
+\item
+Deklariere eine String Variable mit dem Text: ''Zuerst ist dies der Text.''\\
+Gebe den Inhalt dieser Variable im Terminal aus. \\
+Ändere den Wert der Variable zu: ''Geänderter Text.'' \\
+Gebe den Inhalt dieser Variable erneut im Terminal aus.
+\item 
+Deklariere eine String Variable mit deinem Namen als Text.
+Schreibe durch konkatinieren den Text: 
+''Hallo, mein Name ist ...'' ins Terminal.
+\item
+Deklariere eine String Variable mit deinem Namen als Text.
+Schreibe durch beidseitiges konkatinieren ''$===>$ ....$<===$'' ins Terminal.
+\end{enumerate}
+
+\section{Lesen aus der Konsole}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+Console.WriteLine("Gebe eine Eingabe ein und bestätige mit Enter!");
+
+string input = Console.ReadLine();
+
+Console.WriteLine(Eingabe);
+\end{minted}
+
+\Aufgabe{3} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeile aus dem Beispiel in Visual Studio und führe sie aus!
+\item 
+Schreibe ein Programm das den Nutzer nach seinem Namen fragt und diesen dann in einer Variable speichert. \\ Dann soll der Nutzer mit seinem Namen begrüßt werden.
+\item
+Das Programm soll den Nutzer nun auch noch nach seinem Wohnort fragen und diesen in einer eigenen Variable speichern. \\ Dann soll der Nutzer mit ''Grüße! ... aus ...'' begrüßt werden.
+\end{enumerate}
+
+\section{Integer Variablen}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+int zahl = 5;
+
+Console.WriteLine(zahl + 5);
+\end{minted}
+
+\Aufgabe{4} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeile aus dem Beispiel in Visual Studio und führe sie aus!
+\item 
+Schreibe das Ergebnis der Rechnungen 4+2, 4-2, 4*2, 4/2 ins Terminal.
+\item
+Gebe das Ergebnis der Rechnung 5/2 im Terminal aus. Wie erklärst du dir das Ergebnis?
+\item 
+Deklariere zwei Integer Variablen a und b mit den Werten 3 und 7.  \\
+Speichere den Wert von a + b in einer neuen Variablen c. \\
+Speichere den Werte c*3 - b in einer neuen Variablen d. \\
+Geben den Wert von d im Terminal aus. \\
+\item
+Deklariere zwei Integer Variablen num3 und num7 mit den Werten 3 und 7.  \\
+Gebe die Werte jeweils im Terminal aus. \\
+Tausche den Wert der beiden Variablen. \\
+Gebe die Werte jeweils im Terminal aus. \\
+\item
+Deklariere die Integer Variable x mit dem Wert 13.
+\\
+Deklariere die Integer Variable y mit einem Wert so, \\
+ dass der Ausdruck (2*x + y)/3 den Wert 10 annimmt.
+\item
+Deklariere vier Integer Variablen num2, num3, num5, num7 mit den Werten 2,3,5 und 7.
+
+Verbinde die Variablen mit genau drei Rechenoperationen, so dass der Ausdruck num2 \_ num3 \_ num5 \_ num7 den Wert 0 annimmt und gebe diesen im Terminal aus.
+\end{enumerate}
+
+\section{Rechnen mit Rest}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+Console.WriteLine(13%10);
+
+Console.WriteLine(7%2);
+
+Console.WriteLine(5%5);
+\end{minted}
+
+\Aufgabe{5} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeile aus dem Beispiel in Visual Studio und führe sie aus!
+\item 
+Versuche anhand der Konsolen Ausgabe zu verstehen, was der \%-Rechenoperator bewirkt.
+\end{enumerate}
+
+\section{Konvertieren von Integer und String}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+int zahl = 13;
+
+string dreizehn = zahl.ToString();
+
+string sieben = "7";
+
+string hundertsiebenundreissig = dreizehn + sieben;
+
+int ergebnis = Convert.ToInt32(hundertsiebenundreissig);
+
+Console.WriteLine(ergebnis);
+\end{minted}
+
+\Aufgabe{6} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeile aus dem Beispiel in Visual Studio und führe sie aus! Versuche jeden Schritt nachzuvollziehen und zu verstehen.
+\item 
+Deklariere eine String Variable mit dem Wert ''239''. Konvertiere den Wert der Variable zu einem Integer und speichere ihn in einer Variable.
+Multipliziere das Ergebnis mit 3, ziehe dann 3 ab und teile das Ergebnis durch 17. Konvertiere diese Zahl dann wieder in einen String und gebe das Ergebnis in der Konsole aus.
+\item
+Schreibe ein Programm, dass folgendes tut:  Der Nutzer wird nach seinem Alter gefragt. Nach dem der Nutzer sein Alter eingeben hat, soll das Program dem Nutzer sein Alter plus 10 ausgeben.
+\item
+Lese zwei Zahlen vom Nutzer ein. Berechne die Summe und die Differenz der beiden Zahlen und gebe jeweils das Ergebnis in der Konsole aus.
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+

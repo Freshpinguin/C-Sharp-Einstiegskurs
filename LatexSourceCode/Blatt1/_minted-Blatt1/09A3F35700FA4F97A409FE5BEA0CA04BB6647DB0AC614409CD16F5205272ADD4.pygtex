@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{string}\PYG{+w}{ }\PYG{k+kt}{var}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}Meine erste Variable!\PYGZdq{}}\PYG{p}{;}
+
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{k+kt}{var}\PYG{p}{);}
+\end{Verbatim}

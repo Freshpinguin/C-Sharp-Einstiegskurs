@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Dies ist mein erstes C\PYGZsh{} Project!\PYGZdq{}}\PYG{p}{);}
+\end{Verbatim}

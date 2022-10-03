@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{l+m}{13}\PYG{p}{\PYGZpc{}}\PYG{l+m}{10}\PYG{p}{);}
+
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{l+m}{7}\PYG{p}{\PYGZpc{}}\PYG{l+m}{2}\PYG{p}{);}
+
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{l+m}{5}\PYG{p}{\PYGZpc{}}\PYG{l+m}{5}\PYG{p}{);}
+\end{Verbatim}
