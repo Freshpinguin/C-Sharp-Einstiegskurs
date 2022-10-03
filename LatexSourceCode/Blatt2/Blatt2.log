@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.2)  3 OCT 2022 22:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.2)  3 OCT 2022 22:21
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1156,46 +1156,32 @@ A4D.pygtex)
 :<-
 \openout3 = `Blatt2.pyg'.
 
-runsystem(pygmentize -l csharp -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-Blatt2/A7045745BD744606447A60E12A365CD502BE0999419D710DFA89D26098933A4D.
-pygtex Blatt2.pyg)...executed.
-
 Package srcltx Info: Expanded filename `_minted-Blatt2/A7045745BD744606447A60E1
 2A365CD502BE0999419D710DFA89D26098933A4D.pygtex' to `_minted-Blatt2/A7045745BD7
 44606447A60E12A365CD502BE0999419D710DFA89D26098933A4D.pygtex.tex' on input line
- 262.
+ 265.
 :<+ _minted-Blatt2/A7045745BD744606447A60E12A365CD502BE0999419D710DFA89D2609893
 3A4D.pygtex.tex
 
 (./_minted-Blatt2/A7045745BD744606447A60E12A365CD502BE0999419D710DFA89D26098933
 A4D.pygtex)
 :<-
-runsystem(rm _minted-Blatt2/2F435A41FCC9965698F7D358B9CA780602BE0999419D710DFA8
-9D26098933A4D.pygtex)...executed.
-
 [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
  (./Blatt2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
-
-
-Package rerunfilecheck Warning: File `Blatt2.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Blatt2.out':
-(rerunfilecheck)             Before: E83C2F445962EF13052F68F6178DA457;328
-(rerunfilecheck)             After:  F2B3D45E83E84B06D624562F29EC7476;310.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
+Package rerunfilecheck Info: File `Blatt2.out' has not changed.
+(rerunfilecheck)             Checksum: F2B3D45E83E84B06D624562F29EC7476;310.
 runsystem(rm Blatt2.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 23362 strings out of 480608
- 441634 string characters out of 5903631
+ 23361 strings out of 480608
+ 441491 string characters out of 5903631
  941099 words of memory out of 5000000
- 38687 multiletter control sequences out of 15000+600000
+ 38686 multiletter control sequences out of 15000+600000
  540918 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,12n,66p,840b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1206,10 +1192,10 @@ usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></u
 sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></
 usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Blatt2.pdf (5 pages, 87139 bytes).
+Output written on Blatt2.pdf (5 pages, 87268 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
