@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{for}\PYG{p}{(}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{zähler}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{zähler}\PYG{+w}{ }\PYG{p}{\PYGZlt{}}\PYG{+w}{ }\PYG{l+m}{10}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{zähler}\PYG{p}{++)}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{zähler}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

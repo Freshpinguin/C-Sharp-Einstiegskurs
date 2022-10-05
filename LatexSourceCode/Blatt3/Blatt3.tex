@@ -1,0 +1,283 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{minted}
+\usemintedstyle{vs}
+\usepackage{fancyhdr}
+\usepackage{fancyheadings}
+\usepackage[ngerman,german]{babel}
+\usepackage{german}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[active]{srcltx}
+\usepackage{algorithm}
+\usepackage[noend]{algorithmic}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{bbm}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{ifthen}
+\usepackage{listings}
+\usepackage{struktex}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{positioning,automata}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% EDIT THIS PART %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Fach}{C\#}
+\newcommand{\Name}{Fachschaft}
+\newcommand{\Tutorium}{}
+\newcommand{\Semester}{OHM }
+\newcommand{\KlausurLoesung }{SoSe2020} %  <-- UPDATE ME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\parindent}{0em}
+\topmargin -1.0cm
+\oddsidemargin 0cm
+\evensidemargin 0cm
+\setlength{\textheight}{9.2in}
+\setlength{\textwidth}{6.0in}
+
+%%%%%%%%%%%%%%%
+%% Aufgaben-COMMAND
+\newcommand{\Aufgabe}[1]{
+  {
+  \vspace*{0.5cm}
+  \textsf{\textbf{Aufgabe #1}}
+  \vspace*{0.2cm}
+  
+  }
+}
+
+\newcommand{\Definition}[1]{
+  {
+  \vspace*{0.5cm}
+  \textsf{\textbf{#1}}
+  \vspace*{0.2cm}
+  
+  }
+}
+
+%%%%%%%%%%%%%%
+\hypersetup{
+    pdftitle={\Fach{}: Übungsblatt \KlausurLoesung{}},
+    pdfauthor={\Name},
+    pdfborder={0 0 0}
+}
+
+\lstset{ %
+language=java,
+basicstyle=\footnotesize\tt,
+showtabs=false,
+tabsize=2,
+captionpos=b,
+breaklines=true,
+extendedchars=true,
+showstringspaces=false,
+flexiblecolumns=true,
+}
+
+\title{Übungsblatt Deterministische Endliche Automaten}
+\author{\Name{}}
+
+\begin{document}
+\thispagestyle{fancy}
+\lhead{\sf \large \Fach{} \\ \small \Name{} }
+\rhead{\sf \Semester{} \\  Brückenkurs \Tutorium{}}
+\vspace*{0.2cm}
+\begin{center}
+\LARGE \sf \textbf{Blatt 3}
+\end{center}
+\vspace*{0.2cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Insert your solutions here %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{While Schleifen}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+int zähler = 0;
+
+while(zähler <= 10){
+
+Console.WriteLine("Das ist der "+zähler+"te Aufruf dieser Schleife.");
+
+zähler = zähler + 1;
+
+}
+\end{minted}
+
+
+
+\Aufgabe{1} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeilen aus dem Beispiel in Visual Studio und führe sie aus!
+\item
+Versuche herauszufinden warum und wann die Schleife abbricht. Ändere die Schleife so ab, dass sie nur einmal durchlaufen wird.
+\item
+Ändere die Schleife so ab, dass die Schleife nur fünfmal durchlaufen wird.
+\item
+Ändere die Schleife so ab, dass der Zähler mit 10 beginnt und dann in jedem Durchlauf verkleinert wird.
+\item
+Ändere die Schleife so ab, dass der Zähler bei 0 beginnt und in jedem Schritt um 10 vergrößert wird bis er bei 100 abbricht.
+\item
+Ändere die Schleife so ab, dass der Zähler bei 0 beginnt und in jedem Schritt verdoppelt wird, bis er bei 100 abbricht.
+\item
+Auch der Computer kann keine unendlich großen Zahlen speichern. Schreibe eine While-Schleife, die nie abbricht um eine Integer Variable unendlich groß werden zu lassen. \\
+Was passiert hier? Versuche durch ausprobieren herauszufinden, was der größte mögliche Wert ist, den eine Integer Variable annehmen kann.
+\end{enumerate}
+
+\section{For Schleifen}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+for(int zähler = 0; zähler < 10; zähler++)
+{
+    Console.WriteLine(zähler);
+}
+\end{minted}
+
+\Aufgabe{2} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeilen aus dem Beispiel in Visual Studio und führe sie aus!
+\item 
+Versuche herauszufinden was in jedem Schleifendurchlauf mit dem Zähler passiert und warum und wann die Schleife abbricht. 
+\item
+Ändere die Abbruchbedingung so ab, dass die Schleife nur fünf mal durchlaufen wird.
+\item
+Ändere die Iterations Anweisung so ab, dass der Zähler in zweier Schritten vergrößert wird.
+\item
+Ändere die Schleifenvariable und die Iterations Anweisung so ab, dass der Zähler bei 20 beginnt und bis 10 runterzählt.
+\end{enumerate}
+
+\section{Zeichen Loop}
+\Definition{Beispiel Programm}
+
+\begin{minted}{csharp}
+Console.WriteLine("Gebe ein Zeichen ein!");
+
+string zeichen = Console.ReadLine();
+
+Console.WriteLine("Gebe eine Zahl ein");
+
+int anzahl = Convert.ToInt32(Console.ReadLine());
+
+for()
+{
+    Console.WriteLine(zeichen);
+}
+\end{minted}
+
+\Aufgabe{3} 
+\begin{enumerate}[a)]
+\item
+Kopiere die Programmzeilen aus dem Beispiel und ergänze die For-Schleife so ab, dass das eingegebene Zeichen der eingegebenen Zahl entsprechend oft ausgegeben wird.
+\item 
+Ändere das Programm so ab, dass wenn der Nutzer einer Zahl kleiner 0 eingibt, eine Fehlermeldung ausgegeben bekommt.
+\item
+Füge eine Zusätzliche string Variable ein und ändere das Programm so ab, dass die Ausgabe aus einer einzigen Zeile besteht, die alle Zeichen beinhaltet. \\
+Beispiel:  Nutzer gibt als erstes X als Zeichen und dann 10 als Zahl ein. Die Ausgabe ist dann:
+\\
+XXXXXXXXXX
+\item
+Nun soll der Nutzer 3 Eingaben machen. Die ersten 2 sollen erfolgen wie bei vorigen Aufgabe Zeichen Ausgabe mit Loop II. Die 3. Eingabe ist auch eine ganze Zahl größer als 0. Es soll dann n-mal Zeilen, 3. Eingabe, ausgeben werden. Jede Zeile soll nur aus dem eingegeben Zeichen, 1. Eingabe, bestehen. Jede Zeile soll genau k-mal lang sein, 2. Eingabe. \\
+
+Beispiel: Nutzer gibt als erstes H als Zeichen ein. Danach wird 10 und dann 5 eingeben. Die Ausgabe ist dann: \\
+HHHHHHHHHH \\
+HHHHHHHHHH \\
+HHHHHHHHHH \\
+HHHHHHHHHH \\
+HHHHHHHHHH \\
+
+\end{enumerate}
+
+\section{Ratespiel}
+\Aufgabe{4} 
+Bei diesem Spiel gibt der Nutzer solange eine Zahl von 0 bis 100 ein bis er die richtige Zahl erraten hat. \\
+
+    Diese richtige Zahl wird in einer Variable festgelegt.
+    Falls die eingeben Zahl falsch ist dann: \\
+        Wenn die eingebende Zahl kleiner ist als die richtige Zahl, dann soll dem Nutzer angezeigt werden, dass die Zahl zu klein ist. \\
+        Wenn die eingebende Zahl größer ist als die richtige Zahl, dann soll dem Nutzer angezeigt werden, dass die Zahl zu groß ist. \\
+        Der Nutzer wieder erneut um die Eingabe einer Zahl gebeten.
+    Wenn der Nutzer die richtige Zahl eingeben hat, dann soll ihm gratuliert werden Auch soll angezeigt werden wie viele Versuche gebraucht wurden.
+
+\section{Teilbarkeit}
+
+\Aufgabe{5} 
+\begin{enumerate}[a)]
+\item
+Schreibe ein Programm, das für jede Zahl die kleiner oder gleich 20 ist, ausgibt, ob diese 20 teilt.
+\item
+Der Nutzer soll jetzt eine Zahl eingeben können. Schreibe für jede kleinere oder gleiche Zahl, wenn sie die eingebebene Teilt, ''kleinereZahl teilt eingegebeneZahl in die Konsole.'' \\
+Beispiel: Für die Eingabe 10  \\
+1 teilt 10 \\
+2 teilt 10 \\
+5 teilt 10 \\
+10 teilt 10 \\
+\item
+Der Nutzer soll eine Zahl eingeben. Gebe die Anzahl der kleineren oder gleichen Zahlen aus, welche die eingegebene Zahl teilen. Wenn die Zahl nur durch zwei Zahlen Teilbar ist (sich selber und 1), schreibe ''eingegebeneZahl ist Primzahl'' in die Konsole. \\
+Beispiel: Für die Eingabe 10 \\
+10 ist durch 4 Zahlen teilbar. \\
+\\
+Beispiel: Für die Eingabe 7 \\
+7 ist eine Primzahl. \\
+
+\item
+Schwierige Aufgabe: \\
+Schreibe eine Programm, dass für eine eingegebene Zahl die Primzahl Zerlegung berechnet und als String Variable alle Teiler der Zahl speichert und in die Konsole schreibt. \\
+Beispiel für die Eingabe 12 \\
+Primzahlzerlegung: 2 2 3
+\\
+Benutze eine For Schleife innerhalb einer While Schleife.
+\end{enumerate}
+
+\section{Fizz Buzz}
+\Aufgabe{6} 
+Der Nutzer gibt eine positive Zahl ein. Danach soll dem Nutzer je eine Zeile für jede Zahl zwischen 1 und der eingebenden Zahl ausgeben werden, nach folgenden Regeln: \\
+\\
+    Ist die Zahl durch 3 teilbar, dann soll ''fizz'' ausgeben werden.  \\
+    Ist die Zahl durch 5 teilbar, dann soll ''buzz'' ausgeben werden. \\
+    Ansonsten soll die Zahl selbst ausgeben werden. \\
+\\
+Am Ende, nach Ausgabe von 1 bis zur eingebenden Zahl, soll noch die Anzahl von ausgeben fizz und buzz Zeilen ausgeben werden.\\
+\\
+
+Beispiel: \\
+\\
+Nutzer gibt 20 ein, dann kann die Ausgabe ungefähr so sein:
+\\
+1 \\
+2 \\
+Fizz \\
+4 \\
+Buzz \\
+Fizz \\
+7 \\
+8 \\
+Fizz \\
+Buzz \\
+11 \\
+Fizz \\
+13 \\
+14 \\
+Fizz \\
+Buzz \\
+16 \\
+17 \\
+Fizz \\
+19\\
+Buzz\\
+\\
+Anzahl von Fizz: 6\\
+Anzahl von Buzz: 4\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+

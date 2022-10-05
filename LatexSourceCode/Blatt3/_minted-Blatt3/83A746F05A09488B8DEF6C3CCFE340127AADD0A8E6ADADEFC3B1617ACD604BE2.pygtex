@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{zähler}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{l+m}{0}\PYG{p}{;}
+
+\PYG{k}{while}\PYG{p}{(}\PYG{n}{zähler}\PYG{+w}{ }\PYG{p}{\PYGZlt{}=}\PYG{+w}{ }\PYG{l+m}{10}\PYG{p}{)\PYGZob{}}
+
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Das ist der \PYGZdq{}}\PYG{p}{+}\PYG{n}{zähler}\PYG{p}{+}\PYG{l+s}{\PYGZdq{}te Aufruf dieser Schleife.\PYGZdq{}}\PYG{p}{);}
+
+\PYG{n}{zähler}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{zähler}\PYG{+w}{ }\PYG{p}{+}\PYG{+w}{ }\PYG{l+m}{1}\PYG{p}{;}
+
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

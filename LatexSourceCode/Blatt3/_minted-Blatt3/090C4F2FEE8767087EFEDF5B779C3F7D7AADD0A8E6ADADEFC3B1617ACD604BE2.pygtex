@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Gebe ein Zeichen ein!\PYGZdq{}}\PYG{p}{);}
+
+\PYG{k+kt}{string}\PYG{+w}{ }\PYG{n}{zeichen}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{Console}\PYG{p}{.}\PYG{n}{ReadLine}\PYG{p}{();}
+
+\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Gebe eine Zahl ein\PYGZdq{}}\PYG{p}{);}
+
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{anzahl}\PYG{+w}{ }\PYG{p}{=}\PYG{+w}{ }\PYG{n}{Convert}\PYG{p}{.}\PYG{n}{ToInt32}\PYG{p}{(}\PYG{n}{Console}\PYG{p}{.}\PYG{n}{ReadLine}\PYG{p}{());}
+
+\PYG{k}{for}\PYG{p}{()}
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{Console}\PYG{p}{.}\PYG{n}{WriteLine}\PYG{p}{(}\PYG{n}{zeichen}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
