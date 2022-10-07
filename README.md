@@ -12,3 +12,5 @@ Blatt 1: https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Blatt
 Blatt 2: https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Blatt2.pdf
 
 Blatt 3: https://github.com/Freshpinguin/C-Sharp-Einstiegskurs/blob/master/Blatt3.pdf
+
+Blatt 4: [Blatt 4](./Blatt4.pdf)
